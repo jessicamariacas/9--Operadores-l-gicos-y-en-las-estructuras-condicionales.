@@ -1,0 +1,518 @@
+<!--<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Jessica Maria</title>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+
+    <script>
+        document.write('Jessica');
+        document.write('<br>');
+        document.write('17');
+    </script>
+
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Jessica Maria</title>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+
+    <script>
+        var name= 'Jessica';
+        var sueldo= 200;
+        document.write(name);
+        document.write('<br>');
+        document.write(sueldo);
+    </script>
+
+</body>
+
+</html>
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Jessica Maria</title>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+
+    <script>
+        var name;
+        var mail;
+        name = prompt('Ingrese su nombre de usuario:');
+        mail = prompt('Ingrese su mail:');
+        document.write('Nombre de usuario ingresado:');
+        document.write(name);
+        document.write('<br>');
+        document.write('Mail ingresado:');
+        document.write(mail);
+    </script>
+
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Jessica Maria</title>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+
+    <script>
+        var ellado;
+        ellado = prompt('Ingrese medida del lado:');
+        var perimetro;
+        perimetro = ellado * 4;
+        document.write('Su perímetro es:');
+        document.write(perimetro);
+    </script>
+
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Jessica Maria</title>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+
+    <script>
+        var no1;
+        var no2;
+        var no3;
+        var no4;
+        no1= prompt('Ingrese el primer valor:');
+        no2= prompt('Ingrese el segundo valor:');
+        no3= prompt('Ingrese el tercer valor:');
+        no4= prompt('Ingrese el cuarto valor:');
+        var suma;
+        suma= parseInt(no1) + parseInt(no2);
+        var producto;
+        producto= parseInt(no3) * parseInt(no4);
+        document.write('La suma de los dos primeros numeros es:');
+        document.write(suma);
+        document.write('<br>');
+        document.write('El producto del tercer y cuarto numero es:');
+        document.write(producto);
+    </script>
+
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Jessica Maria</title>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+
+    <script>
+        var no1;
+        var no2;
+        var no3;
+        var no4;
+        no1 = prompt('Ingrese el primer valor:');
+        no2 = prompt('Ingrese el segundo valor:');
+        no3 = prompt('Ingrese el tercer valor:');
+        no4 = prompt('Ingrese el cuarto valor:');
+        var suma;
+        suma = parseInt(no1) + parseInt(no2) + parseInt(no3) + parseInt(no4);
+        var producto;
+        producto = parseInt(no1) * parseInt(no2) * parseInt(no2) * parseInt(no4);
+        document.write('La suma de los cuatro numeros es:');
+        document.write(suma);
+        document.write('<br>');
+        document.write('El producto de los cuatro numeros es:');
+        document.write(producto);
+    </script>
+
+</body>
+
+</html>
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Jessica Maria</title>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+
+    <script>
+        var precio;
+        var cantidad;
+        precio = prompt('Ingrese el precio del artículo');
+        cantidad = prompt('Ingrese la cantidad de los artículos que va a llevar:');
+        var abono;
+        abono = parseInt(precio) * parseInt(cantidad);
+        document.write('Se debe abonar:');
+        document.write(abono);
+    </script>
+
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Jessica Maria</title>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+
+    <script>
+        var nota1;  var nota2;  var nota3;
+
+        nota1= prompt('Ingrese su primera nota');
+        nota1= parseInt(nota1);
+        nota2= prompt('Ingrese su segunda nota');
+        nota2= parseInt(nota2);
+        nota3= prompt('Ingrese su tercera nota');
+        nota3= parseInt(nota3);
+        var suma;
+        suma= nota1+nota2+nota3;
+        var promedio;
+        promedio= suma/3;
+        if (promedio>= 7) {
+            document.write('Promocionado');
+        }
+    </script>
+
+</body>
+
+</html>
+
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Jessica Maria</title>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+
+    <script>
+        var clave1;
+        var clave2;
+        clave1 = prompt('Introduzca una Clave:');
+        clave2 = prompt('ingrese otra clave');
+        if (clave1 == clave2) {
+            document.write('Ambas claves son iguales');
+        } 
+    </script>
+
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Jessica Maria</title>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+
+    <script>
+        var no1, no2;
+        no1 = prompt('Ingrese el primer valor:');
+        no2 = prompt('Ingrese el segundo valor:');
+        no1 = parseInt(no1);
+        no2 = parseInt(no2);
+        if (no1 > no2) {
+            var suma, resta;
+            suma = no1 + no2;
+            resta = no1 - no2;
+            document.write('el resultado de la suma es:'+ suma);
+            document.write('<br>');
+            document.write('el resultado de la resta es:'+ resta);
+        }
+        else {
+            var multiplicacion, division;
+            multiplicacion= no1*no2;
+            division= no1/no2;
+            document.write('El producto es '+multiplicacion);
+            document.write('<br>');
+            document.write('La división del primero respecto al segundo es:' + division);
+        }
+    </script>
+
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Jessica Maria</title>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+
+    <script>
+        var nota1, nota2, nota3;
+        nota1 = prompt('Ingrese su primera nota:');
+        nota1 = parseInt(nota1);
+        nota2 = prompt('Ingrese su segunda nota:');
+        nota2 = parseInt(nota2);
+        nota3 = prompt('Ingrese su tercera nota:');
+        nota3 = parseInt(nota3);
+        var suma;
+        suma = nota1 + nota2 + nota3;
+        var promedio;
+        promedio = suma / 3;
+        if (promedio >= 4) {
+            document.write('Regular');
+        }
+        else {
+            document.write('Reprobado');
+        }
+    </script>
+
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Jessica Maria</title>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+
+    <script type="text/javascript">
+        var numero;
+        numero= prompt('Ingrese un numero entre 1-99:');
+        numero= parseInt(numero);
+        if (numero<10) {
+            document.write('El numero que ingreso contiene 1 digito');
+        }
+        else {
+            document.write('El numero que ingreso contiene 2 digito');
+        }
+    </script>
+
+</body>
+
+</html>
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Jessica Maria</title>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+
+    <script>
+        var no1, no2, no3;
+        no1= prompt('Introduzca un numero:');
+        no1= parseInt(no1);
+        no2= prompt('Introduzca otro numero:');
+        no2= parseInt(no2);
+        no3= prompt('Introduzca otro numero:');
+        no3= parseInt(no3);
+        if (no1> no2) {
+            if (no1> no3) {
+                document.write('el numero mayor es:' + no1);
+            }
+            else {
+                document.write('el numero mayor es:' + no3);
+            }
+        }
+        else {
+            if (no2 > no3) {
+                document.write('el numero mayor es:' + no2);
+            }
+            else {
+                document.write('el numero mayor es:' + no3);
+            }
+        }
+    </script>
+
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Jessica Maria</title>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+
+    <script>
+        var numero;
+        numero= prompt('Ingrese un numero');
+        numero= parseInt(numero);
+        if (numero==0) {
+            document.write('El número que ingreso es cero');
+        }
+        else {
+            if (numero> 0) {
+                document.write('es un numero positivo');
+            }
+            else {
+                document.write('es un numero negativo');
+            }
+        }
+    </script>
+
+</body>
+
+</html>
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Jessica Maria</title>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+
+    <script>
+        var numero;
+        numero= prompt('Ingrese un número de 1 a 3 dígitos', '');
+        numero= parseInt(numero);
+        if (numero< 10) {
+            document.write(' tiene un digito');
+        }
+        else {
+            if (numero< 100) {
+                document.write('tiene dos digitos');
+            }
+            else {
+                document.write('tiene tres digitos');
+            }
+        }
+    </script>
+
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Jessica Maria</title>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+
+    <script>
+        var nombre;
+        nombre = prompt('Nombre del postulante');
+        var preguntas;
+        preguntas = prompt('Cantidad total de preguntas');
+        preguntas = parseInt(preguntas);
+        var preguntascorrectas;
+        preguntascorrectas = prompt('Cantidad de preguntas correctas');
+        preguntascorrectas = parseInt(preguntascorrectas);
+        var porcentaje;
+        porcentaje = preguntascorrectas / preguntas * 100;
+        if (porcentaje >= 90) {
+            document.write('Nivel superior');
+        }
+        else {
+            if (porcentaje >= 75) {
+                document.write('Nivel medio');
+            }
+            else {
+                if (porcentaje >= 50) {
+                    document.write('Nivel regular');
+                }
+                else {
+                    document.write('Fuera de nivel');
+                }
+            }
+        }
+    </script>
+
+</body>
+
+</html>     -->
+
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Jessica Maria</title>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+
+    <script>
+        var dia, mes, año;
+        dia = prompt('día');
+        dia = parseInt(dia);
+        mes = prompt('mes');
+        mes = parseInt(mes);
+        año = prompt('año');
+        año = parseInt(año);
+        if (dia == 25 && mes == 12) {
+            document.write('La fecha corresponde a Navidad');
+        }
+        else {
+            document.write('La fecha no corresponde a Navidad');
+        }
+    </script>
+
+</body>
+
+</html>
